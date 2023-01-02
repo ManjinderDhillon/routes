@@ -6,7 +6,6 @@
 <script>
 export default {
   name: "App",
-
   methods: {
     addOne() {
       this.$store.commit("increment");
